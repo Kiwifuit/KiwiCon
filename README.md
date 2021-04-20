@@ -51,3 +51,7 @@ a) i made it so that if `-e` or `--encode` is passed it passes a `True`, then it
 And umm yea, I got school and shit. So I gotta update the repo quick or me mom go kill kill.
 
 Ight cya
+
+Edit: i also forgot that i already have the source for the console, so yea
+
+now **cya**
