@@ -59,3 +59,71 @@ now **cya**
 Edit Edit: Thank you to my buddy (not gonna name him ofc) for pointin a _minor_ flaw in this README.
 
 _How many times do I have to "cya" before I can **actually** get out of here?_
+
+Day Two
+---------
+Today's another day (at least for me lol)
+
+So that means another day of Documentation/Journal thingy idk
+
+So for today, I started learning Lua (LMAOOOO). I haven't changed the repo much.
+
+But I am motivated so yea...I brought the `hash.py` file I talked about yesterday and decided: _More Doctor's Code, please_ so I did just that:
+```py
+import argparse
+import hashlib
+hasher = argparse.ArgumentParser(prog="hash.exe", description="Hashing Algorithms bundled into one file", )
+hasher.add_argument("-t", "--type", type=int, help="Type of hashing algorithm you want to use")
+hasher.add_argument("text", help="The text you want to encrypt/hash")
+
+args = hasher.parse_args()
+```
+__Of course__ it's not yet done. I still got some of that keystrokes left, brb in a while...
+
+Back! And I have a plan  thingy with this one:
+```
+0 = shake_128
+1 = shake_256
+2 = BLAKE2b (x64 OSs)
+3 = BLAKE2s (x86 OSs)
+4 = SHA-1
+5 = SHA-256 (Parkour)
+6 = SHA-512 (EXTRA Parkour)
+7 = Base16
+8 = Base32
+9 = Base64
+```
+Yeah, that is some complex plan. Better start working on it...
+
+Hello and I am back lol. This is genuinely the most scared I am getting (I think):
+```py
+if args.type == 0:
+    msg = hashlib.shake_128(args.text).hexdigest()
+if args.type == 1:
+    msg = hashlib.shake_256(args.text).hexdigest()
+if args.type == 2:
+    msg = hashlib.blake2b(args.text).hexdigest()
+if args.type == 3:
+    msg = hashlib.blake2s(args.text).hexdigest()
+if args.type == 4:
+    msg = hashlib.sha1(args.text).hexdigest()
+if args.type == 5:
+    msg = hashlib.sha256(args.text).hexdigest()
+if args.type == 6:
+    msg = hashlib.sha512(args.text).hexdigest()
+if args.type == 7:
+    msg = base64.b16encode(args.text)
+if args.type == 8:
+    msg = base64.b32encode(args.text)
+if args.type == 9:
+    msg = base64.b64encode(args.text)
+print(msg)
+```
+
+All I know what this does is that for `hashlib`, I hash using hash algorithm, then digest it???? I dunno
+
+For `Base64`, All I know is only recieved from [the module's documentation](https://docs.python.org/3/library/base64.html).
+
+Also, forgot to say at this point but I'm using VSCode from the start of the `Day Two` header. And that's because I got [GitHub for Desktop](https://desktop.github.com)
+
+Anyways, I got that luchies to take, so cya later in the afternoon when I got the time I guess
