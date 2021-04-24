@@ -93,6 +93,7 @@ Back! And I have a plan  thingy with this one:
 8 = Base32
 9 = Base64
 ```
+
 Yeah, that is some complex plan. Better start working on it...
 
 Hello and I am back lol. This is genuinely the most scared I am getting (I think):
@@ -127,3 +128,10 @@ For `Base64`, All I know is only recieved from [the module's documentation](http
 Also, forgot to say at this point but I'm using VSCode from the start of the `Day Two` header. And that's because I got [GitHub for Desktop](https://desktop.github.com)
 
 Anyways, I got that luchies to take, so cya later in the afternoon when I got the time I guess
+
+# Day three
+Yeah, I know that I haven't updated this repo for a while, sorry about that.
+
+I got a ton of stuff going on irl so please wait for a while I guess I dunno really...
+
+Just wannna tell you that I'll be back in a while, no coding stuff for today. Also I got special examinations for today since I scored low in some of my subjects and I'd like to make said subject's grades higher or something idk wtf im talking about
