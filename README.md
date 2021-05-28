@@ -93,6 +93,7 @@ Back! And I have a plan  thingy with this one:
 8 = Base32
 9 = Base64
 ```
+
 Yeah, that is some complex plan. Better start working on it...
 
 Hello and I am back lol. This is genuinely the most scared I am getting (I think):
